@@ -6,7 +6,7 @@
 #    By: drabarza <drabarza@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2024/03/15 08:08:17 by drabarza          #+#    #+#              #
-#    Updated: 2024/05/06 18:42:01 by drabarza         ###   ########.fr        #
+#    Updated: 2024/05/06 18:46:05 by drabarza         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -73,7 +73,7 @@ clean:
 	@echo "${RED}Cleaning completed.${NC}"
 
 fclean: clean
-	@rm -f ${CLIENT} ${SERVER}
+	@rm -f ${CLIENT} ${SERVER} ${CLIENT_BONUS} ${SERVER_BONUS}
 
 re: fclean all
 
